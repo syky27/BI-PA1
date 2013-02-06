@@ -1,0 +1,24 @@
+Úkolem je realizovat program, který bude testovat podobnost trojúhelníků. Program rozhodne
+pro dvojici trojúhelníků, zda jsou podobné či ne. Podobnost je vyhodnocovaná v
+geometrickém smyslu, tedy dva trojúhelníky jsou podobné, pokud mají strany ve stejném
+poměru.
+
+Vstupem programu je 6 desetinných čísel, první tři čísla jsou velikosti stran prvního
+trojúhelníku a druhá tři čísla jsou velikosti stran druhého trojúhelníku.
+
+Výstupem programu je rozhodnutí, zda jsou trojúhelníky podobné nebo ne. Při rozhodování o
+podobnosti program nemůže spoléhat na pořadí zadání stran. Naopak, musíte zkusit všechna
+párování stran trojúhelníků (viz zadání 2 3 4 6 8 4 v ukázce). Formát výstupu je zřejmý z
+ukázek níže. Nezapomeňte na odřádkování za výpisem.
+
+Pokud vstup není platný (na vstupu jsou nečíselné nebo nesmyslné hodnoty), program tuto
+situaci detekuje a vypíše chybové hlášení. Formát chybového hlášení je opět uveden v
+ukázkách níže. Za chybu je považováno, pokud je na vstupu:
+
+nečíselná hodnota,
+nesmyslná hodnota (záporná nebo nulová velikost) nebo
+zadané délky stran netvoří trojúhelník (nesplňují trojúhelníkovou nerovnost).
+Pokud program detekuje chybu, přestane se dotazovat na další vstupní hodnoty, vypíše
+chybové hlášení a ukončí se. Chybu je tedy potřeba detekovat okamžitě po načtení hodnoty
+(neodkládejte kontrolu vstupních údajů až za načtení celého vstupu). Chybové hlášení
+vypisujte na standardní výstup (nevypisujte jej na standardní chybový výstup).
